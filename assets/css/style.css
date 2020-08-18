@@ -1,25 +1,41 @@
-/* .container{
-    margin-top: 40px;
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+ 
+ .bg-color{
+     background-color:teal;
+     
+     font-weight: bold;
+
+    
+ }
+ 
+ h1{
+     color:teal;
+     font-weight: bold;
+ }
+
+
+
+.container{
+    
     margin-left: 0px;
     padding: 30px;
 
 }
 
-.card-body{
+/* .card-body{
     background-color: white;
     height: 400px;
     width: 400px;
-}
-
-
-
-.bg-color{
-   background-color: teal;
-   
-}
-
-h1{
-    color: teal;
-    font-weight: bold;
 } */
+
+
 
