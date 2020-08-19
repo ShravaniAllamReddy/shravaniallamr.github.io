@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+header{
+   
+}
 
  .bg-color{
      background-color:teal;
@@ -7,6 +21,8 @@
  h1{
      color:teal;
      font-weight: bold;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
  }
 
  .button{
@@ -15,20 +31,57 @@
 
 
 .container{
-    /* display: flex;
-    flex-wrap: wrap; */
     margin-left: 0px;
     padding: 50px;
+    width: 600px;
+    background-color:white;
+
+}
+
+.border{
+   border: 1px solid;
+   margin-left: 40px;
+   margin-top: 40px;
+   margin-bottom: 90px;
 
 }
 
 
+.row-border{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
 
-/* .card-body{
-    background-color: white;
-    height: 400px;
-    width: 400px;
-} */
+.col-sm-6{
+ 
+    margin-bottom: 20px;
+
+}
 
 
+.fixed-bottom{
+   background-color:grey;
+   padding: 5px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   }
+
+
+/* 
+  These rules take effect when the browser's width
+  is either 992px or less. */
+
+@media screen and (max-width: 992px) {
+    /* The body's bg color will be #333 */
+    body {
+      overflow-x: hidden;
+      background-color:white;
+    }
+  
+
+/* Width at 168px and below
+@media screen and (max-width: 168px) {
+    body {
+      background-color: white;
+    } */
 
