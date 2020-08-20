@@ -14,40 +14,40 @@
 </head>
 
 <body>
-    <header>
-        <!-- Start Nav -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <span class="navbar-brand mb-1 h1 bg-color">Shravani Allam Reddy</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
 
-        </nav>
-        <!-- End Nav -->
-    </header>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand bg-info" href="#">Shravani Allam Reddy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
 
-    <div class="container border">
+    </nav>
+    <!-- End Nav -->
+
+
+    <div class="container p-5 bg-white border mx-auto mt-5" style="width: 50rem;">
 
         <!-- Row 1 -->
-        <div class="row row-border">
+        <div class="row border-bottom mb-3">
 
             <div class="col-md-12">
 
-                <h1>About Me</h1>
+                <h1 class="font-weight-bold text-info">About Me</h1>
 
             </div>
 
@@ -55,13 +55,13 @@
         <!-- Row 2 -->
         <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
 
-                <img src="/assets/images/picture.JPG" alt="Shravani" class="img-fluid">
+                <img src="/assets/images/picture.JPG" alt="Shravani" class="img-responsive" width="200px" height="200px">
 
             </div>
 
-            <div class="col-md-8">
+            <div class="col-lg-8">
 
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perferendis
@@ -69,39 +69,29 @@
                     explicabo quo impedit omnis aperiam dolore similique repudiandae ipsam
                     exercitationem.
                 </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, fuga dignissimos? Consectetur
+                    ullam in commodi aspernatur modi praesentium veritatis beatae facere quas repellat hic reiciendis
+                    voluptates odio vel, sequi atque?
+                </p>
 
             </div>
 
         </div>
-
-        <!-- Row 3  -->
-
-        <div class="row">
-
-            <div class="col-md-12">
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem obcaecati
-                    maxime ipsum nesciunt. Sint unde veniam enim ex est distinctio nisi repellendus aut
-                    reprehenderit veritatis, quas rerum, inventore totam quae!</p>
-
-
-            </div>
-
-        </div>
-
 
 
     </div>
-    <footer>
-        <div class="fixed-bottom">
 
+
+        <div class="fixed-bottom p-1 bg-secondary text-center border-top border-info" style="border-top:100px solid">
+    
             <p>
                 &copy; Copyright 2018 Shravani Allam Reddy
             </p>
-
+    
         </div>
-
-    </footer>
+    
+   
+    
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -110,5 +100,6 @@
     <!-- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 
 </html>

@@ -1,87 +1,49 @@
-* {
+*{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
-
-body {
+ 
+html,body {
+  
     background-color: #d9dcd6;
+    background-image: url('https://www.alphaclick.in/wp-content/uploads/2019/06/web-design-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-
-header{
-   
-}
-
- .bg-color{
-     background-color:teal;
-     font-weight: bold;
-}
- 
- h1{
-     color:teal;
-     font-weight: bold;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
- }
-
- .button{
-     background-color: teal;
- }
-
-
-.container{
-    margin-left: 0px;
-    padding: 50px;
-    width: 600px;
-    background-color:white;
-
-}
-
-.border{
-   border: 1px solid;
-   margin-left: 40px;
-   margin-top: 40px;
-   margin-bottom: 90px;
-
-}
-
-
-.row-border{
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.col-sm-6{
- 
-    margin-bottom: 20px;
-
-}
-
-
-.fixed-bottom{
-   background-color:grey;
-   padding: 5px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   text-align: center;
-   }
 
 
 /* 
   These rules take effect when the browser's width
-  is either 992px or less. */
+  is either 583px or less. */
 
-@media screen and (max-width: 992px) {
-    /* The body's bg color will be #333 */
-    body {
-      overflow-x: hidden;
-      background-color:white;
-    }
+@media (min-width:576px) and (max-width: 767px) {
+      
+     .container{
+        margin: 10px 5px 5px 5px;
+     }
+}
+
+@media screen and (max-width: 587px){
+     .container{
+        width: 580px;
+        height: 800px;
+        margin: 10px 5px 20px 5px;
+     }
+     html,body {
   
+        /* background-color: #d9dcd6; */
+        background-image: url('https://www.alphaclick.in/wp-content/uploads/2019/06/web-design-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-/* Width at 168px and below
-@media screen and (max-width: 168px) {
-    body {
-      background-color: white;
-    } */
+}
+/*
+@media screen and (max-width: 365px){
+    .container{
+       width: 300px;
+       height: 860px;
+       margin: 10px 5px 20px 5px;
+    }
 
+
+} */
