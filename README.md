@@ -7,11 +7,11 @@ Html, CSS and BootStrap to make it responsive.
 
 ## Usage
 
-If you navigate to home page, there are 3 hyperlinks (About, Portfolio and Contact) when clicled which redirects you to 3 different pages.
+If you navigate to home page, there are 3 hyperlinks (About, Portfolio and Contact) when clicked which redirects you to 3 different pages.
 *Home/About me page consists of my photograph and biodata.
 *Portfolio page consists of my work which is yet to be updated.
 *Contact page consists of Name, Email and Message where in you can submit your details to contact me.
-*There are social media links of my Linkedin profile and Github account on Home and Contact Page.
+*There are social media links of my Linkedin profile and Github account on Contact Page.
 
 
 ## URL for Deployed Application
