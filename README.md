@@ -1,6 +1,6 @@
 # Responsive Portfolio Using BootStrap
 
-<img src= "images/portfolio_home.JPG" alt= "home">
+<img src= "assets/images/portfolio_home.JPG" alt= "home">
 
 
 ## Description
