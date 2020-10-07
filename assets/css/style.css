@@ -11,6 +11,37 @@ html,body {
     background-repeat: no-repeat;
 }
 
+.bio{
+  background-color: #ffffff;
+  border-bottom: solid 1px #dddddd;
+	width: 590px;
+	margin: 40px 0px 40px 30px;
+	padding: 0px 30px 30px 30px;
+	float: left;
+}
+
+
+.photo{
+	float: left;
+	padding-right: 20px;
+
+}
+
+aside{
+	margin: 40px 0px 0px 40px;
+	background-color: #ffffff;
+	float: left;
+	padding: 0px 30px 10px 30px;
+	
+}
+
+.contact{
+	line-height: 50px;
+	font-size: 26px;
+	font-weight: 400;
+
+}
+
   /* These rules take effect when the browser's width
   is either 992px or less so that biodata in 'index.html' page is below the Image and 
   Columns dont overlap each other in 'portfolio.html' page */
