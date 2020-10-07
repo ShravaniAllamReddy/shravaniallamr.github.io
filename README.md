@@ -1,5 +1,8 @@
 # Responsive Portfolio Using BootStrap
 
+<img src="/assets/images/portfolio_home.jpg" alt="home">
+
+
 ## Description
 
 My Portfolio consists of 3 pages `index.html`, `portfolio.html` and `contact.html` which are built using 
