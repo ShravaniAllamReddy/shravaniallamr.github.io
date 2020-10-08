@@ -33,9 +33,10 @@ If you navigate to home page, there are 3 hyperlinks (About, Portfolio and Conta
 
    Github Repo Link : https://github.com/ShravaniAllamReddy/WeatherForecast-Report
 
-3. Disaster Ready : This application is designed to compile external data and provide sources to users regarding disaster relief. A sizeable amount of the population is not prepared in the    event of a natural disaster. This product is designed to provide information to users who would like to prepare for natural disasters or those who have been directly affected by natural disasters. Preparation is a key component in order to reduce the impact of the disasters. Even without a disaster preparation plan this site is designed to provide current information regarding news, weather, airquality and other helpful information to users who have been affected by a natural disaster. 
+3. Disaster Ready :
+   This application is designed to compile external data and provide sources to users regarding disaster relief. A sizeable amount of the population is not prepared in the    event of a natural disaster. This product is designed to provide information to users who would like to prepare for natural disasters or those who have been directly affected by natural disasters. Preparation is a key component in order to reduce the impact of the disasters. Even without a disaster preparation plan this site is designed to provide current information regarding news, weather, airquality and other helpful information to users who have been affected by a natural disaster. 
 
-  <img src= "assets/images/frontpage.jpg" alt= "home">
+   <img src= "assets/images/frontpage.jpg" alt= "home">
 
   Github Repo Link : https://github.com/aroseca15/Disaster-Ready
 
