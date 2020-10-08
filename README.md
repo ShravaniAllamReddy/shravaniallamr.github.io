@@ -12,12 +12,12 @@ Html, CSS and BootStrap to make it responsive.
 
 If you navigate to home page, there are 3 hyperlinks (About, Portfolio and Contact) when clicked which redirects you to 3 different pages.
   * Home/About me page consists of my photograph and biodata.
-  * Portfolio page consists of my work on workday-planner, weatherforecast eport and project on disaster preparedness.
+  * Portfolio page consists of my work on workday-planner, weatherforecast report and project on disaster preparedness.
   * Contact page consists of Name, Email and Message where in you can submit your details to contact me.
   * There are social media links of my Linkedin profile and Github account on Home Page.
 
 
-## Portfolio Projects
+## Projects
 
 1. Work-Day-Scheduler : Simple Calendar application that allows the user to save events for each hour of the day.This app will run in the browser and feature 
    dynamically updated HTML and CSS powered by jQuery.
@@ -36,7 +36,7 @@ If you navigate to home page, there are 3 hyperlinks (About, Portfolio and Conta
 3. Disaster Ready :
    This application is designed to compile external data and provide sources to users regarding disaster relief. A sizeable amount of the population is not prepared in the    event of a natural disaster. This product is designed to provide information to users who would like to prepare for natural disasters or those who have been directly affected by natural disasters. Preparation is a key component in order to reduce the impact of the disasters. Even without a disaster preparation plan this site is designed to provide current information regarding news, weather, airquality and other helpful information to users who have been affected by a natural disaster. 
 
-   <img src= "assets/images/disasters.jpg" alt= "home">
+   <img src= "assets/images/disasters.jpg" alt= "disasters">
 
   Github Repo Link : https://github.com/aroseca15/Disaster-Ready
 
